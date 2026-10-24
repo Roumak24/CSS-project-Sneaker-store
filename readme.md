@@ -1,0 +1,1 @@
+This the task of html & CSS of building a sneaker store

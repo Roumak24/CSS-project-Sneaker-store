@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Thala 7 - Checkout</title>
+</head>
+<body class="checkout-body">
+  <main class="checkout">
+    <section class="checkout-left">
+      <p class="crumb">Checkout</p>
+
+      <h3>Contact Details</h3>
+      <label class="small">Email ID</label>
+      <input class="field" type="email" placeholder="John Doe">
+
+      <h3>Payment</h3>
+      <div class="pay-card">
+        <div class="methods">
+          <button class="method active">&#128179;<br>Card</button>
+          <button class="method">&#8383;<br>Crypto</button>
+          <button class="method">&#127963;<br>Bank</button>
+          <button class="method more">&#8942;</button>
+        </div>
+
+        <label class="small">Card Number</label>
+        <input class="field" type="text" placeholder="John Doe">
+
+        <div class="two">
+          <div>
+            <label class="small">Expiry</label>
+            <input class="field" type="text" placeholder="MM/YY">
+          </div>
+          <div>
+            <label class="small">CVC</label>
+            <input class="field" type="text" placeholder="***">
+          </div>
+        </div>
+
+        <div class="two">
+          <div>
+            <label class="small">Country</label>
+            <select class="field">
+              <option>India</option>
+              <option>USA</option>
+              <option>UK</option>
+            </select>
+          </div>
+          <div>
+            <label class="small">ZIP</label>
+            <input class="field" type="text" placeholder="XXXXX">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="checkout-right">
+      <h2>Order Summary</h2>
+      <div class="card">
+        <label class="small">Enter Coupon Code</label>
+        <div class="coupon">
+          <input type="text" placeholder="COUPON CODE">
+          <button class="btn-blue">Apply Coupon</button>
+        </div>
+        <div class="line"><span>Sub Total</span><span>&#8377;4,700</span></div>
+        <div class="line"><span>Taxes(if applicable)</span><span>&#8377;199</span></div>
+        <div class="line"><span>Discount</span><span>&#8377;0</span></div>
+        <div class="line total"><span>Total</span><span>&#8377;4,999</span></div>
+      </div>
+      <a href="#" class="btn-pay">Pay Now &#8377;4,999</a>
+      <div class="secure">
+        <span class="badge">&#128737; SECURE</span>
+        <b class="rzp">Razorpay</b>
+        <span class="badge">&#128274; SECURE PAYMENT</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
